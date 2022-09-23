@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E0E8EBEA52624922460274C /* Pods_12_Hafta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFAE18C368D5EFDD6FB5921 /* Pods_12_Hafta.framework */; };
+		84246A1528DDCB9600873A7C /* LabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84246A1428DDCB9600873A7C /* LabelViewController.swift */; };
+		844760B528DC73BD00285E25 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844760B428DC73BD00285E25 /* PageViewController.swift */; };
 		84A2B51228DB48160089ABCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A2B51128DB48160089ABCE /* AppDelegate.swift */; };
 		84A2B51428DB48160089ABCE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A2B51328DB48160089ABCE /* SceneDelegate.swift */; };
 		84A2B51628DB48160089ABCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A2B51528DB48160089ABCE /* ViewController.swift */; };
@@ -16,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3AFAE18C368D5EFDD6FB5921 /* Pods_12_Hafta.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_12_Hafta.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4108458D7BCA9144C929FFF6 /* Pods-12.Hafta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-12.Hafta.release.xcconfig"; path = "Target Support Files/Pods-12.Hafta/Pods-12.Hafta.release.xcconfig"; sourceTree = "<group>"; };
+		84246A1428DDCB9600873A7C /* LabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelViewController.swift; sourceTree = "<group>"; };
+		844760B428DC73BD00285E25 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		84A2B50E28DB48150089ABCE /* 12.Hafta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 12.Hafta.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A2B51128DB48160089ABCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A2B51328DB48160089ABCE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,7 @@
 		84A2B51A28DB48180089ABCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A2B51D28DB48180089ABCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A2B51F28DB48180089ABCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F018D0A89903C549CAC934CD /* Pods-12.Hafta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-12.Hafta.debug.xcconfig"; path = "Target Support Files/Pods-12.Hafta/Pods-12.Hafta.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E0E8EBEA52624922460274C /* Pods_12_Hafta.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		63DA7C797D3E10328F13E73E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F018D0A89903C549CAC934CD /* Pods-12.Hafta.debug.xcconfig */,
+				4108458D7BCA9144C929FFF6 /* Pods-12.Hafta.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		78843A3D3967A57AFFD9AFFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AFAE18C368D5EFDD6FB5921 /* Pods_12_Hafta.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		84A2B50528DB48150089ABCE = {
 			isa = PBXGroup;
 			children = (
 				84A2B51028DB48150089ABCE /* 12.Hafta */,
 				84A2B50F28DB48150089ABCE /* Products */,
+				63DA7C797D3E10328F13E73E /* Pods */,
+				78843A3D3967A57AFFD9AFFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +87,8 @@
 				84A2B51128DB48160089ABCE /* AppDelegate.swift */,
 				84A2B51328DB48160089ABCE /* SceneDelegate.swift */,
 				84A2B51528DB48160089ABCE /* ViewController.swift */,
+				844760B428DC73BD00285E25 /* PageViewController.swift */,
+				84246A1428DDCB9600873A7C /* LabelViewController.swift */,
 				84A2B51728DB48160089ABCE /* Main.storyboard */,
 				84A2B51A28DB48180089ABCE /* Assets.xcassets */,
 				84A2B51C28DB48180089ABCE /* LaunchScreen.storyboard */,
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84A2B52228DB48180089ABCE /* Build configuration list for PBXNativeTarget "12.Hafta" */;
 			buildPhases = (
+				A4E93DB6C38AE5C0791D0E6D /* [CP] Check Pods Manifest.lock */,
 				84A2B50A28DB48150089ABCE /* Sources */,
 				84A2B50B28DB48150089ABCE /* Frameworks */,
 				84A2B50C28DB48150089ABCE /* Resources */,
+				0F34D01A60AEC199541AB500 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +165,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F34D01A60AEC199541AB500 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-12.Hafta/Pods-12.Hafta-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-12.Hafta/Pods-12.Hafta-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-12.Hafta/Pods-12.Hafta-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4E93DB6C38AE5C0791D0E6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-12.Hafta-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84A2B50A28DB48150089ABCE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				84A2B51628DB48160089ABCE /* ViewController.swift in Sources */,
+				84246A1528DDCB9600873A7C /* LabelViewController.swift in Sources */,
 				84A2B51228DB48160089ABCE /* AppDelegate.swift in Sources */,
 				84A2B51428DB48160089ABCE /* SceneDelegate.swift in Sources */,
+				844760B528DC73BD00285E25 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +358,7 @@
 		};
 		84A2B52328DB48180089ABCE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F018D0A89903C549CAC934CD /* Pods-12.Hafta.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +387,7 @@
 		};
 		84A2B52428DB48180089ABCE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4108458D7BCA9144C929FFF6 /* Pods-12.Hafta.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

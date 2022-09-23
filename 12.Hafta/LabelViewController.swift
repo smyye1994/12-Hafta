@@ -13,6 +13,7 @@ class LabelViewController: UIViewController {
         let myText: String
         private let label: UILabel = {
             let label = UILabel()
+            label.textAlignment = .center
             label.font = .systemFont(ofSize: 24)
             label.textColor = .black
             
@@ -45,12 +46,12 @@ class LabelViewController: UIViewController {
         
         
         if labelA ==  true {
-            label.backgroundColor = .green
+            label.backgroundColor = .red
             labelA = false
             
             
         } else {
-            label.backgroundColor = .red
+            label.backgroundColor = .white
             labelA = true
         }
         
@@ -59,7 +60,8 @@ class LabelViewController: UIViewController {
 
 override func viewDidLayoutSubviews() {
             super.viewDidLayoutSubviews()
-            label.edgesToSuperview()
+    label.edgesToSuperview()
+    
         }
 
 }

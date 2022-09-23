@@ -14,8 +14,8 @@ import TinyConstraints
         var myController = [UIViewController]()
         override func viewDidLoad() {
             super.viewDidLoad()
-            let pages: [String] = [ "Change Color", "Change Color",
-              "Change Color", "Change Color"
+            let pages: [String] = [ "Change Color1", "Change Color2",
+              "Change Color3", "Change Color4"
            ]
             for text in pages {
                 let vc = LabelViewController(with: text)
